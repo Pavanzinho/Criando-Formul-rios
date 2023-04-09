@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.pogeContainer{
+    
+    height: 100%;
+}
+  
+h1,h2{ 
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+}
+
+h2{
+    color: #535971;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+span{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color:#535971;
+}
+
+
+header{
+    background-color: #535971;
+    color: white;
+    height: 436px;
+    padding: 140px 350px;
+}
+
+header h1 {
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 18px;
+}
+
+header>p{
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+main{
+    padding: 0 350px 50px;
+    
+}
+
+main form{
+    background-color: white;
+    border-radius: 20px 20px 0 0 ;
+    margin-top: -114px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding: 64px;
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset:nth-of-type(1)>legend{
+    margin-bottom: 16px;
+}
+
+
+
+fieldset legend{ 
+    font-family: 'Staatliches', cursive;
+    color: #535971;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 8px;
+}
+
+.inputWrapperContainer{
+    padding-top: 35px;
+    border-top: 1px solid #E6E6F0;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.inputWrapper{
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+
+}
+
+
+
+.inputWrapper input {
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    border: 2px solid #E6E6F0;
+    padding-left: 16px;
+}
+
+.rowInputWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+  
+}
+
+.dateInputWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+
+}
+
+.dateInputWrapper>.inputWrapper:nth-child(1){
+    width: 150%;
+}
+
+
+
+
+footer{
+  
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+    background-color: #535971;
+}
+
+button{
+    width: 80%;
+    height: 56px;
+    border: none;
+    background-color: #FF5374;
+    
+    font-family: 'Staatliches', cursive;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    border-radius: 20px;
+
+    cursor: pointer;
+    
+}
+
+
